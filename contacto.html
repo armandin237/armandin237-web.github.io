@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiclera Eagle</title> 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/logo.ico">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="main-header__container">
+                <h1 class="main-header__title">Chicleras.net</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="" class="menu__link">Inicio</a></li>
+                        <li class="menu__item"><a href="./pages/about.html" class="menu__link">Nosotros</a></li>
+                        <li class="menu__item"><a href="./pages/services.html" class="menu__link">Servicios</a></li>
+                        <li class="menu__item"><a href="./pages/shop.html" class="menu__link">Tienda</a></li>
+                        <li class="menu__item"><a href="./pages/contacto.html" class="menu__link">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>      
+
+            <div class="main-header__container">    
+                <span class="main-header__txt">¿Necesitas ayuda?</span>
+                <p class="main-header__txt"><i class="fa-solid fa-phone"></i>+52 5550501585</p>
+            </div>
+
+            <div class="main-header__container">
+                <i class="fa-solid fa-user"></i>
+                <a href="./pages/shop.html" class="main-header__btn">Carrito<i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="img/img1.jpg" alt="" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Eagle</h2>
+                    <p class="slider__txt">Lider en chicleras y refacciones</p>
+                    <a href="./pages/shop.html" class="btn-shop">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img/img4.jpg" alt="chiclera" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="img/img3.jpg" alt="chiclera" class="slider__img">
+                <div class="slider__content">
+                    <h2 class="slider__title">Eagle</h2>
+                    <p class="slider__txt">Lider en chicleras</p>
+                    <a href="./pages/shop.html" class="btn-shop">Comprar ahora</a>
+                </div>
+            </div>
+            <div class="slider__section">
+                <img src="img/img2.jpg" alt="chiclera" class="slider__img">
+            </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+    </div>
+
+
+       <footer class="main-footer">
+        <div class="footer__section">
+            <h2 class="footer__title">Sobre Nosotros</h2>
+            <p class="footer__txt">Somos una empresa mexicana con más de diez años en el mercado y contamos con una amplia experiencia en máquinas tragamonedas, expendedoras de dulces y accesorios.</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">Dirección</h2>
+            <p class="footer__txt">Valle de Aragon 1ra. Secc Valle de carvajal 34 int 3 Municipio de Nezahualcoyotl C.P.:57100</p>
+            <h2 class="footer__title">Contacto</h2>
+            <p class="footer__txt">Telefono : 5550501585</p>
+            <p class="footer__txt">E-mail : Ventas@chicleras.net</p>
+        </div>
+       <div class="footer__section">
+            <h2 class="footer__title">Enlaces rápidos</h2>
+            <a href="index.html"class="footer__link">Inicio</a></p>
+            <a href="./pages/about.html"class="footer__link">Nosotros</a></p>
+            <a href="./pages/services.html"class="footer__link">Servicios</a></p>
+            <a href="./pages/shop.html"class="footer__link">Tienda</a></p>
+            <a href="./pages/contacto.html"class="footer__link">Contactanos</a></p>
+        </div>
+
+        <div class="footer__section">
+            <form class="footer__form" action="https://formspree.io/f/xvgopeya" method="POST">
+                <h3 class="footer__newsletter">Contáctanos</h3>
+                <div class="footer__inputs">
+                    <input type="email" name="email" placeholder="Correo electrónico" class="footer__input" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono" class="footer__input" required>
+                    <input type="text" name="direccion" placeholder="Dirección" class="footer__input" required>
+                    <button type="submit" class="footer__submit">Enviar</button>
+                </div>
+            </form>
+        </div> 
+        <p class="copy">Derechos reservados &copy; Ingercom</p>           
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
